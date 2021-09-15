@@ -1,0 +1,42 @@
+.center-form {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.logo {
+  width: 100px;
+  height: 100px;
+}
+
+.myForm {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 1.5rem;
+  min-width: 400px;
+}
+
+label {
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+}
+
+.inp-text {
+  width: 100%;
+  padding: 1rem;
+  font-size: 1.2rem;
+  background: #1e2327;
+  border: none;
+  outline: none;
+  text-align: center;
+  color: white;
+  border-radius: 0.3rem;
+}
+
+.inp-text::placeholder {
+  padding: 0;
+  margin: 0;
+}

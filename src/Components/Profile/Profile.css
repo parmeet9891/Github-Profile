@@ -1,0 +1,232 @@
+.profile-content {
+  margin-top: 3rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+.user-data {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-bottom: 2rem;
+}
+
+.user-image {
+  width: 35%;
+  height: 35%;
+  border: 10px solid #075dc0;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.user-name {
+  margin-top: 1.5rem;
+  font-size: 2rem;
+  letter-spacing: 0.1rem;
+}
+
+.profile-url {
+  margin-top: 1rem;
+  text-decoration: none;
+  color: #075dc0;
+  font-size: 1.5rem;
+}
+
+.profile-url:hover {
+  text-decoration: underline;
+}
+
+.details {
+  margin-top: 1.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+ion-icon {
+  font-size: 1.5rem;
+}
+
+.hr {
+  display: flex;
+  align-items: center;
+}
+
+.txt {
+  font-size: 1.2rem;
+  margin-left: 0.5rem;
+}
+
+.github-details {
+  margin: 2rem 0 3rem 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.box {
+  background: #24292e;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 1.5rem;
+  text-transform: uppercase;
+  border-radius: 0.2rem;
+}
+
+.count {
+  font-size: 1.5rem;
+  margin-bottom: 0.8rem;
+}
+
+.title {
+  font-size: 0.8rem;
+  letter-spacing: 0.2rem;
+  color: rgb(202, 202, 202);
+}
+
+/*
+--------------------REPOS-----------------
+*/
+.repos-data {
+  background: #f6f8fa;
+  width: 100%;
+}
+
+.repos-graph {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  padding: 1rem;
+  flex-wrap: wrap;
+}
+
+.graph {
+  background-color: #f6f8fa;
+  width: 33%;
+  min-height: 40vh;
+  border-radius: 0.2rem;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+  margin-top: -2rem;
+}
+
+.filter-repos {
+  margin-top: 1rem;
+  padding: 3rem 6rem 3rem 6rem;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1.2rem;
+}
+
+.header h2 {
+  font-size: 1.5rem;
+  color: black;
+  margin-right: 1.5rem;
+}
+
+.dropdown {
+  outline: none;
+  padding: 0.5rem;
+  border: none;
+  border-radius: 0.2rem;
+  border: 1px solid #075dc0;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+  background-color: transparent;
+  color: #075dc0;
+}
+
+.dropdown option {
+  border: none;
+  padding: 0.3rem;
+  border-radius: 0.2rem;
+  outline: none;
+  background-color: #075dc0;
+  color: white;
+}
+
+.repos-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.list-box {
+  color: #24292e;
+  background: white;
+  border: 1px solid white;
+  border-radius: 0.5rem;
+  padding: 1.5rem;
+  width: 500px;
+}
+
+.name {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-bottom: 0.8rem;
+}
+
+.name p {
+  font-size: 1.2rem;
+  color: black;
+}
+
+.desc {
+  font-size: 0.95rem;
+  margin-bottom: 1.2rem;
+  width: 95%;
+}
+
+.repo-link {
+  margin-bottom: 1.2rem;
+}
+
+.repo-link a {
+  font-size: 1rem;
+  text-decoration: none;
+}
+
+.tools {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.lang-data {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.params {
+  font-size: 0.8rem;
+  display: flex;
+  align-items: center;
+  gap: 0.2rem;
+}
+
+.circle {
+  width: 10px;
+  height: 10px;
+  background: #075dc0;
+  border-radius: 50%;
+}
+
+.size {
+  font-size: 0.95rem;
+}
